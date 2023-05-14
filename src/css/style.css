@@ -1,0 +1,155 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: #5e5b5bad;
+  color: #333333;
+
+  background-image: url(/src/imagem/background2.jpg);
+  background-position: top center;
+  background-size: 100% auto;
+  background-color: #FF0000;
+}
+
+body.modo-escuro {
+  background-image: url(/src/imagem/background.jpg);
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+	background-color: #000000;
+	color: #f5f5f5;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+header .logo {
+  width: 70px;
+  transition: 0.2s ease-in-out;
+} 
+
+header .imagem-botao {
+  width: 30px;
+  transition: 0.2s ease-in-out;
+}
+
+header #botao-alterar-tema {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+header .logo:hover,
+header .imagem-botao:hover,
+main .cartao:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+main {
+  padding: 25px;
+}
+
+main .listagem {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+main .cartao {
+  background-color: #d8e3ec;
+  width: 200px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  transition: 0.2s ease-in-out;
+}
+
+main .cartao:hover {
+  background-color: #96d9e6;
+}
+
+.modo-escuro .cartao {
+  background-color: #a8a8a8;
+}
+
+main .cartao .informacoes {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #333333;
+  border-radius: 10px;
+}
+
+main .cartao .informacoes span {
+  padding: 5px;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+main .cartao .gif {
+  width: 90px;
+  height: 90px;
+}
+
+main .cartao .interacao span {
+  font-size: 9px;
+  text-transform: uppercase;
+}
+
+main .cartao .tipos {
+  display: flex;
+  gap: 15px;
+  font-size: 12px;
+}
+
+main .cartao .tipo {
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.x-men {
+  background-color: #FDB913 ;
+}
+
+.mutante {
+  background-color: #0072BB ;
+}
+
+.vingadores {
+  background-color: #FF0000 ;
+}
+
+.modificado {
+  background-color: #808080 ;
+}
+
+.mistico {
+  background-color: #8A2BE2 ;
+}
+
+.eterno {
+  background-color: #8B4513 ;
+}
+
+.simbionte {
+  background-color: #000000 ;
+  color: white;
+}
+
+.humano {
+  background-color: #FFFFFF ;
+}
+
+main .descricao {
+  max-height: 80px;
+  overflow-y: scroll;
+  font-size: 14px;
+  padding-right: 10px;
+}

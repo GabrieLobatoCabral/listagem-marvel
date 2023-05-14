@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Listagem Marvel - Semana do Zero ao Programador Contratado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@300;400;500;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/scrollbar.css">
+
+    <script>
+      function trocarImagem(imagem, novoSrc) {
+        imagem.src = novoSrc;
+      }
+    </script>
+    
+
+  </head>
+  <body>
+    <header>
+      <a href="#">
+        <img src="/src/imagem/logo.png" alt="marvel" class="logo" />
+      </a>
+      <button id="botao-alterar-tema">
+        <img
+          src="/src/imagem/sun.png"
+          alt="imagem do sol"
+          class="imagem-botao"
+        />
+      </button>
+    </header>
+    <main>
+      <ul class="listagem">
+        <!-- Cartão #001 -->
+        <li class="cartao">
+          <div class="informacoes">
+            <span>Cable</span>
+          </div>
+
+          <img id="troca" src="/src/imagem/cable.gif" alt="Cable" class="gif" onmouseover="trocarImagem(this, '/src/imagem/cable2.gif')" onmouseout="trocarImagem(this, '/src/imagem/cable.gif')"/>
+
+          <div class="interacao">
+            <span>Passe o mouse na imagem</span>
+          </div>
+
+          <ul class="tipos">
+            <li class="tipo x-men">X-men</li>
+            <li class="tipo mutante">Mutante</li>
+          </ul>
+
+          <p class="descricao">
+            Cable é um mutante com muitos poderes, dentre eles estão telecinesia, telepatia e dispara raios pelos olhos assim como Ciclope. Usa um dispositivo que o ajuda a se teletransportar, possui o braço esquerdo dominado pelo Tecno-vírus (um vírus artificial implantado por Apocalipse).
+          </p>
+        </li>
+
+        <!-- Cartão #002 -->
+        <li class="cartao">
+          <div class="informacoes">
+            <span>Capitão América</span>
+          </div>
+
+          <img id="troca" src="/src/imagem/capitao america.gif" alt="Capitao-America" class="gif" onmouseover="trocarImagem(this, '/src/imagem/capitao america2.gif')" onmouseout="trocarImagem(this, 'src/imagem/capitao america.gif')"/>
+
+          <div class="interacao">
+            <span>Passe o mouse na imagem</span>
+          </div>
+
+          <ul class="tipos">
+            <li class="tipo vingadores">Vingadores</li>
+            <li class="tipo modificado">Modificado</li>
+          </ul>
+
+          <p class="descricao">
+            Poderes e habilidades: Um dos melhores lutadores do mundo, Rogers conhece inúmeras técnicas de combate corpo-a-corpo, mesmo se não tem superpoderes. Porém, graças ao soro do Supersoldado, é dono de força, agilidade, resistência, reflexos e capacidade de cura superiores aos dos seres humanos normais.
+          </p>
+        </li>
+
+        <!-- Cartão #003 -->
+        <li class="cartao">
+          <div class="informacoes">
+            <span>Gambit</span>
+          </div>
+
+          <img id="troca" src="/src/imagem/gambi.gif" alt="Gambit" class="gif" onmouseover="trocarImagem(this, '/src/imagem/gambi2.gif')" onmouseout="trocarImagem(this, 'src/imagem/gambi.gif')"/>
+
+          <div class="interacao">
+            <span>Passe o mouse na imagem</span>
+          </div>
+
+          <ul class="tipos">
+            <li class="tipo x-men">X-men</li>
+            <li class="tipo mutante">Mutante</li>
+          </ul>
+
+          <p class="descricao">
+            Um mutante de nivel beta sendo um mutante muito poderoso, Gambit possui a habilidade de manipular energia cinética.
+          </p>
+        </li>
+
+        <!-- Cartão #004 -->
+        <li class="cartao">
+          <div class="informacoes">
+            <span>Juggernaut</span>
+          </div>
+
+          <img id="troca" src="/src/imagem/Juggernaut.gif" alt="Juggernaut" class="gif" onmouseover="trocarImagem(this, '/src/imagem/Juggernaut2.gif')" onmouseout="trocarImagem(this, 'src/imagem/Juggernaut.gif')"/>
+
+          <div class="interacao">
+            <span>Passe o mouse na imagem</span>
+          </div>
+
+          <ul class="tipos">
+            <li class="tipo x-men">X-men</li>
+            <li class="tipo mistico">Místico</li>
+          </ul>
+
+          <p class="descricao">
+            No exército da Bolívia, ao desertar de sua tropa na guerra da Coreia, Cain descobriu, em uma caverna no Camboja, o cristal do demônio Cyttorak. O cristal deu a ele os poderes das faixas escarlates de Cyttorak. Portanto seus poderes são místicos, ele não é um mutante.
+          </p>
+        </li>
+
+        <!-- Cartão #005 -->
+        <li class="cartao">
+          <div class="informacoes">
+            <span>Magneto</span>
+          </div>
+
+          <img id="troca" src="/src/imagem/magneto.gif" alt="Magneto" class="gif" onmouseover="trocarImagem(this, '/src/imagem/magneto2.gif')" onmouseout="trocarImagem(this, '/src/imagem/magneto.gif')"/>
+
+          <div class="interacao">
+            <span>Passe o mouse na imagem</span>
+          </div>
+
+          <ul class="tipos">
+            <li class="tipo x-men">X-men</li>
+            <li class="tipo mutante">Mutante</li>
+          </ul>
+
+          <p class="descricao">
+            Magneto é um mutante com enormes poderes de manipulação de campos magnéticos, além de controlar qualquer tipo de metal, incluindo o Adamantium.
+          </p>
+        </li>
+
+        <!-- Cartão #006 -->
+        <li class="cartao">
+          <div class="informacoes">
+            <span>Spider-Man</span>
+          </div>
+
+          <img id="troca" src="/src/imagem/spider man.gif" alt="Spider-Man" class="gif" onmouseover="trocarImagem(this, '/src/imagem/spider man2.webp')" onmouseout="trocarImagem(this, 'src/imagem/spider man.gif')"/>
+
+          <div class="interacao">
+            <span>Passe o mouse na imagem</span>
+          </div>
+
+          <ul class="tipos">
+            <li class="tipo modificado">Modificado</li>
+          </ul>
+
+          <p class="descricao">
+            A picada de uma aranha radioativa desencadeou mutações no corpo de Peter Parker, concedendo-lhe superpoderes. Nas histórias originais de Lee-Ditko, o Homem-Aranha tem a capacidade de se agarrar às paredes, força sobre-humana, um sexto sentido que o alerta do perigo, equilíbrio perfeito, velocidade e agilidade sobre-humanas.
+          </p>
+        </li>
+
+        <!-- Cartão #007 -->
+        <li class="cartao">
+          <div class="informacoes">
+            <span>Tempestade</span>
+          </div>
+
+          <img id="troca" src="/src/imagem/tempestade.gif" alt="Tempestade" class="gif" onmouseover="trocarImagem(this, '/src/imagem/tempestade2.gif')" onmouseout="trocarImagem(this, '/src/imagem/tempestade.gif')"/>
+
+          <div class="interacao">
+            <span>Passe o mouse na imagem</span>
+          </div>
+
+          <ul class="tipos">
+            <li class="tipo x-men">X-men</li>
+            <li class="tipo mutante">Mutante</li>
+          </ul>
+
+          <p class="descricao">
+            Além de saber grandes técnicas, que já fizeram ela ganhar lutas com “vilões” muito maiores, também consegue dominar uma série de elementos, assim como: Temperatura, umidade (a nível molecular), raios eletromagnéticos, pressão atmosférica, furacões, tempestades, nevadas, tempestades cósmicas, ventos solares, correntes oceânicas, campo eletromagnéticos.
+          </p>
+        </li>
+
+        <!-- Cartão #008 -->
+        <li class="cartao">
+          <div class="informacoes">
+            <span>Thanos</span>
+          </div>
+
+          <img id="troca" src="/src/imagem/thanos.webp" alt="Thanos" class="gif" onmouseover="trocarImagem(this, '/src/imagem/thanos2.webp')" onmouseout="trocarImagem(this, '/src/imagem/thanos.webp')"/>
+
+          <div class="interacao">
+            <span>Passe o mouse na imagem</span>
+          </div>
+
+          <ul class="tipos">
+            <li class="tipo eterno">Eterno</li>
+          </ul>
+
+          <p class="descricao">
+            Thanos é um membro mutante da raça dos super-humanos conhecidos como os Eternos Titânicos. O personagem possui habilidades comuns aos Eternos, mas ampliado em maior grau através de uma combinação de sua herança eterna mutante, amplificação biônica, misticismo e poder conferido pela entidade abstrata, Morte. Demonstrando enorme força sobre-humana, velocidade, resistência, imortalidade e invulnerabilidade entre outras qualidades, Thanos pode absorver e projetar grandes quantidades de energia cósmica, e é capaz de telecinese e telepatia. Ele pode manipular matéria e viver indefinidamente sem comida, ar ou água, não pode morrer de velhice, é imune a todas as doenças terrestres e tem alta resistência a ataques psíquicos.
+          </p>
+        </li>
+
+        <!-- Cartão #009 -->
+        <li class="cartao">
+          <div class="informacoes">
+            <span>Vampira</span>
+          </div>
+
+          <img id="troca" src="/src/imagem/vampira.webp" alt="Vampira" class="gif" onmouseover="trocarImagem(this, '/src/imagem/vampira2.gif')" onmouseout="trocarImagem(this, '/src/imagem/vampira.webp')"/>
+
+          <div class="interacao">
+            <span>Passe o mouse na imagem</span>
+          </div>
+
+          <ul class="tipos">
+            <li class="tipo x-men">X-men</li>
+            <li class="tipo mutante">Mutante</li>
+          </ul>
+
+          <p class="descricao">
+            Vampira é uma mutante nível ômega, com isso, pode absorver de forma ilimitada qualquer ser vivo orgânico. Através do contato físico Vampira absorve as memórias, pensamentos, habilidades físicas, mentais, normais ou especiais que a vítima possui, além dos seus super-poderes sejam mutantes ou não.
+          </p>
+        </li>
+
+        <!-- Cartão #010 -->
+        <li class="cartao">
+          <div class="informacoes">
+            <span>Venon</span>
+          </div>
+
+          <img id="troca" src="/src/imagem/venon.gif" alt="Venon" class="gif" onmouseover="trocarImagem(this, '/src/imagem/venon2.gif')" onmouseout="trocarImagem(this, '/src/imagem/venon.gif')"/>
+
+          <div class="interacao">
+            <span>Passe o mouse na imagem</span>
+          </div>
+
+          <ul class="tipos">
+            <li class="tipo simbionte">Simbionte</li>
+            <li class="tipo humano">Humano</li>
+          </ul>
+
+          <p class="descricao">
+            O jornalista investigativo Eddie Brock é possuído por uma forma alienígena simbionte, ganhando poderes-sobre humanos. Perverso, sombrio e alimentado pela raiva, Venom tenta controlar os novos e perigosos poderes inebriantes de Eddie.
+          </p>
+        </li>
+
+        <!-- Cartão #011 -->
+        <li class="cartao">
+          <div class="informacoes">
+            <span>Wolverine</span>
+          </div>
+
+          <img id="troca" src="/src/imagem/wolverine.gif" alt="Wolverine" class="gif" onmouseover="trocarImagem(this, '/src/imagem/wolverine2.gif')" onmouseout="trocarImagem(this, '/src/imagem/wolverine.gif')"/>
+
+          <div class="interacao">
+            <span>Passe o mouse na imagem</span>
+          </div>
+
+          <ul class="tipos">
+            <li class="tipo x-men">X-men</li>
+            <li class="tipo mutante">Mutante</li>
+          </ul>
+
+          <p class="descricao">
+            Seu principal poder mutante é um processo de cicatrização acelerada, tipicamente referido como seu fator de cura mutante, que regenera os tecidos danificados ou destruídos de seu corpo muito além das capacidades de um humano comum.
+            A mutação de Wolverine também consiste em adaptações animais de seu corpo, incluindo caninos pronunciados e afiados e três garras retráteis de 30 cm alojadas dentro de cada antebraço. Embora retratadas originalmente como implantes de metal criados pelo programa Arma X, as garras são reveladas posteriormente como uma parte natural de seu corpo.
+          </p>
+        </li>
+      </ul>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
