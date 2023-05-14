@@ -1,4 +1,4 @@
-# listagem-marvel
+# Listagem Marvel
 
 ![preview](/github/preview.png)
 
@@ -6,7 +6,7 @@
 
 Projeto construído no evento Semana do Zero ao programador Contratado do Dev em Dobro🚀.
 
-[📎 Clique aqui para acessar](https://gabrielobatocabral.github.io/Esports/)
+[📎 Clique aqui para acessar](https://gabrielobatocabral.github.io/listagem-marvel/)
 
 ## 🛠️ Tecnologias
 
