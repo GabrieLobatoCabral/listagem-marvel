@@ -2,9 +2,9 @@
 
 ![preview](/github/preview.png)
 
-> Trilha Explore
+> Dev em Dobro
 
-Projeto construído no evento Next Level Week da Rocketseat🚀.
+Projeto construído no evento Semana do Zero ao programador Contratado do Dev em Dobro🚀.
 
 [📎 Clique aqui para acessar](https://gabrielobatocabral.github.io/Esports/)
 
