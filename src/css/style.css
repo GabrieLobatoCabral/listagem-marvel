@@ -5,14 +5,14 @@ body {
   background-color: #5e5b5bad;
   color: #333333;
 
-  background-image: url(/src/imagem/background2.jpg);
+  background-image: url(../imagem/background2.jpg);
   background-position: top center;
   background-size: 100% auto;
   background-color: #FF0000;
 }
 
 body.modo-escuro {
-  background-image: url(/src/imagem/background.jpg);
+  background-image: url(../imagem/background.jpg);
   background-position: top center;
   background-size: 100% auto;
   background-repeat: no-repeat;
